@@ -8,8 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: sans-serif;
-    font-size: 16px;
     background: black;
 }
 nav {
@@ -17,46 +15,53 @@ nav {
     justify-content: center;
     background: #222;
     padding: 0 15px;
+   
 }
 .nav-tab {
     color: grey;
     text-decoration: none;
-    border-bottom: 5px;
-    border-top: 5px;
-    border-color: khaki;
-    
 }
 ul {
-    
     list-style: none;
-    
 }
 li {
     padding: 10px;
-    height: 17vh;
+    height: 15vh;
     text-align: center;
     font-size: 10vh;
+
+    border-bottom: 1px solid grey;
+   
+}
+nav a {
+    text-decoration: none;
 }
 #exitMenu {
     display: flex;
+    font-size: 4vh;
     flex-direction: row;
+    height: 6vh;
     width: 100vw;
     justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid grey;
+
 }
 .nav-icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     height: 10vh;
-    background: darkblue;
 }
 .nav-icons li {
     display: flex;
+    border-style: none;
 }
 
 #nav-ig-logo {
     display: flex;
-    margin-right: 5vw;
+    margin-right: 7vw;
 }
 #nav-git-logo {
     display: flex;
