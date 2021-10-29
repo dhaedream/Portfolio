@@ -15,7 +15,10 @@ body {
     width: 100%;
     background: black;
 }
-nav {
+#openMobileNav {
+    /* display: none; */
+}
+.mobile-open-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +32,7 @@ nav {
 ul {
     list-style: none;
 }
-nav li {
+.mobile-open-nav li {
     padding: 10px;
     height: 15vh;
     text-align: center;
@@ -39,7 +42,7 @@ nav li {
     border-bottom: 1px solid grey;
     padding-block-start: 3vh;
 }
-nav a {
+.mobile-open-nav a {
     text-decoration: none;
     color: black;
 }
