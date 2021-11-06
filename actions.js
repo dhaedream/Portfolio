@@ -1,7 +1,13 @@
-function managePopMenu() {
-    navEle = document.querySelector("#bigMenu")
-    smNav = document.querySelector(".#smMenu")
-    xBut = document.querySelector("#exitMenu")
-    // navEle.style.display = "none"
-    // smNav.style.borderTop = "1px solid grey"
-}
+var bigNav = document.querySelector("#bigMenu")
+var hamburger = document.querySelector("#hamb");
+    // var smNav = document.querySelector(".#smMenu")
+    // var xBut = document.querySelector("#exitMenu")
+
+hamburger.addEventListener("click", function() {
+
+    bigNav.style.display = "none"
+
+}, false);
+
+
+

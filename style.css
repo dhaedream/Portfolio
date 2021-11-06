@@ -2,23 +2,19 @@
     font-family: mainHead;
     src: url(media/fonts/Emberly-Thin.ttf);
   }
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
 body {
     display: flex;
     flex-direction: column;
     width: 100%;
     background: black;
 }
-#openMobileNav {
-    /* display: none; */
-}
 .mobile-open-nav {
+    /* visibility: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +29,7 @@ ul {
     list-style: none;
 }
 .mobile-open-nav li {
-    display: none;
+    /* display: none; */
     justify-content: center;
     padding: 10px;
     height: 15vh;
@@ -49,7 +45,7 @@ ul {
     color: black;
 }
 #exitMenu {
-    display: hidden;
+    display: flex;
     font-size: 5vh;
     flex-direction: row;
     height: 6vh;
@@ -70,7 +66,6 @@ ul {
     display: flex;
     border-style: none;
 }
-
 #nav-ig-logo {
     display: flex;
     margin-right: 2vw;
@@ -78,7 +73,6 @@ ul {
 #nav-git-logo {
     display: flex;
     margin-left: 2vw;
-
 }
 .mobile-closed-menu {
     top: 0;
