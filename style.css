@@ -104,7 +104,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 90vh;
     background: grey;
     padding: 5vh;
 }
@@ -131,4 +131,17 @@ ul {
     border: black 10px double;
     background-clip: content-box;
     margin: 4vh;
+}
+header {
+    background: rgb(164, 164, 164);
+    height: 30vh;
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: grey;
+    padding: 5vh;
 }
