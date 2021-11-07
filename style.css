@@ -32,7 +32,7 @@ ul {
     /* display: none; */
     justify-content: center;
     padding: 10px;
-    height: 15vh;
+    height: 15.6vh;
     text-align: center;
     font-size: 10vh;
     letter-spacing: 1.6vw;
@@ -54,6 +54,9 @@ ul {
     align-items: center;
     border-top: 1px solid grey;
 }
+#exitMenu:hover {
+    cursor: pointer;
+}
 .nav-icons {
     display: flex;
     flex-direction: row;
@@ -65,6 +68,9 @@ ul {
 .nav-icons li {
     display: flex;
     border-style: none;
+}
+.nav-icons img:hover {
+        cursor: pointer;
 }
 #nav-ig-logo {
     display: flex;
@@ -87,4 +93,14 @@ ul {
 }
 .mobile-closed-menu img {
     height: 7vh;
+}
+#hamb:hover {
+    cursor: pointer;
+}
+.home {
+    height: 85vh;
+    background: grey;
+}
+#bioPic {
+    height: 25vh;
 }
