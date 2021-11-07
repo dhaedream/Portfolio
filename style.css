@@ -12,6 +12,8 @@ body {
     flex-direction: column;
     width: 100%;
     background: black;
+    text-align: center;
+
 }
 .mobile-open-nav {
     /* visibility: hidden; */
@@ -85,11 +87,11 @@ ul {
     display: flex;
     justify-content: space-between;
     background: rgb(90, 90, 90);
-    padding: 10px;
-    height: 15vh;
+    padding: 4vh;
+    height: 10vh;
     width: 100vw;
     border-bottom: 1px solid grey;
-    padding-block-start: 3vh;
+    padding-block-start: 1.5vh;
 }
 .mobile-closed-menu img {
     height: 7vh;
@@ -98,9 +100,35 @@ ul {
     cursor: pointer;
 }
 .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 85vh;
     background: grey;
+    padding: 5vh;
+}
+.home h1 {
+    padding: 2.5vh 0;
+    
+}
+.home h2 {
+    padding: 2.5vh 0;
+}
+.home p {
+    padding: 2.5vh 0;
 }
 #bioPic {
-    height: 25vh;
+    min-width: 20vw;
+    max-width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+    transform: scale(0.9);
+    background-size: 300px 100px;
+    /* transform: scale(1.5); */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: black 10px double;
+    background-clip: content-box;
+    margin: 4vh;
 }
