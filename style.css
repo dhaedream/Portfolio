@@ -134,9 +134,11 @@ ul {
 }
 header {
     background: rgb(164, 164, 164);
-    height: 30vh;
+    height: 40vh;
 }
 .bio {
+    position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,3 +147,10 @@ header {
     background: grey;
     padding: 5vh;
 }
+
+h1 {
+    /* float h1 to top of div */
+    display: flex;
+    color: indigo;
+    position: absolute;
+    top: 0px;}
