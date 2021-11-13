@@ -107,10 +107,11 @@ ul {
     height: 90vh;
     background: grey;
     padding: 5vh;
+    border-bottom: 4px double #000;    
+    border-top: 4px double #000;    
 }
 .home h1 {
-    padding: 2.5vh 0;
-    
+    padding: 2.5vh 0;   
 }
 .home h2 {
     padding: 2.5vh 0;
@@ -138,7 +139,6 @@ header {
 }
 .bio {
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,6 +146,7 @@ header {
     height: 90vh;
     background: grey;
     padding: 5vh;
+    border-bottom: 4px double #000;    
 }
 
 h1 {
@@ -153,4 +154,12 @@ h1 {
     display: flex;
     color: indigo;
     position: absolute;
-    top: 0px;}
+    top: 0px;
+    padding: 2vh 0;
+    border-bottom: 4px double #000;    
+    border-top: 4px double #000;    
+    width: 150vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
