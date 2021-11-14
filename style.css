@@ -124,7 +124,7 @@ ul {
     max-width: 30vw;
     height: 40vh;
     object-fit: cover;
-    transform: scale(0.9);
+    /* transform: scale(-0.9); */
     background-size: 300px 100px;
     /* transform: scale(1.5); */
     border-top-left-radius: 50%;
@@ -135,31 +135,69 @@ ul {
 }
 header {
     background: rgb(164, 164, 164);
-    height: 40vh;
+    height: 35vh;
 }
 .bio {
+    /* float h1 to top of div */
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 70vh;
     background: grey;
     padding: 5vh;
-    border-bottom: 4px double #000;    
+    border-bottom: 4px double #000;
+    font-size: 17px;    
 }
-
-h1 {
+.bio h1 {
     /* float h1 to top of div */
     display: flex;
     color: indigo;
     position: absolute;
     top: 0px;
+    width: 100vw;
     padding: 2vh 0;
     border-bottom: 4px double #000;    
     border-top: 4px double #000;    
-    width: 150vw;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.bio p {
+    padding-top: 2vh;
+}
+.special-text {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+    margin-right: 3vw;
+    /* border-bottom: 4px dotted #000; */
+    /* width: auto;   */
+    padding: 1vh 0;  
+
+}
+.projects {
+    background: grey;
+    height: 80vh;
+}
+.projects h1 {
+    padding: 2vh 0;
+    border-bottom: 4px double #000;    
+    border-top: 4px double #000;    
+    /* width: 150vw; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects h3 {
+    padding: 1vh 0;
+}
+.proj-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
 }
