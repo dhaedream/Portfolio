@@ -169,17 +169,13 @@ header {
 }
 .special-text {
     display: flex;
-    /* flex-direction: row; */
     justify-content: flex-end;
-    margin-right: 3vw;
-    /* border-bottom: 4px dotted #000; */
-    /* width: auto;   */
     padding: 1vh 0;  
-
 }
 .projects {
     background: grey;
-    height: 80vh;
+    /* fix this height  */
+    /* height: 10vh; */
 }
 .projects h1 {
     padding: 2vh 0;
@@ -190,7 +186,12 @@ header {
     align-items: center;
     justify-content: center;
 }
-
+.p-div {
+    background: rgb(123, 0, 61);
+}
+.projects h2 {
+    background: lavender;
+}
 .projects h3 {
     padding: 1vh 0;
 }
@@ -201,4 +202,8 @@ header {
     justify-content: center;
     height: auto;
     width: 100vw;
+}
+.p-div p {
+    background: lavender;
+    padding: 2vh 0;
 }
