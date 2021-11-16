@@ -120,9 +120,11 @@ ul {
     padding: 2.5vh 0;
 }
 #bioPic {
-    min-width: 20vw;
+    /* min-width: 20vw;
     max-width: 30vw;
-    height: 40vh;
+    height: 40vh; */
+    height: 225px;
+    width: 200px;
     object-fit: cover;
     /* transform: scale(-0.9); */
     background-size: 300px 100px;
@@ -135,7 +137,7 @@ ul {
 }
 header {
     background: rgb(164, 164, 164);
-    height: 35vh;
+    height: 25vh;
 }
 .bio {
     /* float h1 to top of div */
@@ -193,7 +195,7 @@ header {
     background: lavender;
 }
 .projects h3 {
-    padding: 1vh 0;
+    padding: 3vh 0;
 }
 .proj-img {
     display: flex;
@@ -205,5 +207,25 @@ header {
 }
 .p-div p {
     background: lavender;
+    padding: 2vh 0;
+}
+#design {
+    margin-top: 5vh;
+}
+.s-cont {
+    padding: 4vh 0 4vh 7vw;
+}
+h4 {
+    /* padding: 2vh 0 .5vh 15vw; */
+    /* padding: 2vh 0; */
+    text-align: left;
+}
+.s-cont p {
+    /* top right bottom left */
+    padding: 1vh 0 1vh 1vh;
+}
+.res-png {
+    width: 87vw;
+    height: auto;
     padding: 2vh 0;
 }
