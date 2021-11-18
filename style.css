@@ -105,7 +105,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background: grey;
+    background: rgb(249, 249, 249);
     padding: 5vh;
     border-bottom: 4px double #000;    
     border-top: 4px double #000;    
@@ -136,7 +136,6 @@ ul {
     margin: 4vh;
 }
 header {
-    background: rgb(164, 164, 164);
     height: 25vh;
 }
 .bio {
@@ -147,7 +146,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 70vh;
-    background: grey;
+    background: rgb(249, 249, 249);
     padding: 5vh;
     border-bottom: 4px double #000;
     font-size: 17px;    
@@ -178,11 +177,12 @@ h1 {
     padding: 1vh 0;  
 }
 .projects {
-    background: grey;
+    /* background: grey; */
     /* fix this height  */
     /* height: 10vh; */
 }
 .projects h1 {
+    background: rgb(249, 249, 249);
     padding: 2vh 0;
     border-bottom: 4px double #000;    
     border-top: 4px double #000;    
@@ -193,7 +193,7 @@ h1 {
     justify-content: center;
 }
 .p-div {
-    background: rgb(123, 0, 61);
+    /* background: rgb(123, 0, 61); */
 }
 .projects h2 {
     background: lavender;
@@ -227,6 +227,9 @@ h4 {
 .s-cont p {
     /* top right bottom left */
     padding: 1vh 0 1vh 1vh;
+}
+.resume {
+    background: rgb(249, 249, 249);
 }
 .res-png {
     width: 87vw;
