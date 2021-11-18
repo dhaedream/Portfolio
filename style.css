@@ -104,7 +104,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
     background: grey;
     padding: 5vh;
     border-bottom: 4px double #000;    
@@ -228,4 +228,33 @@ h4 {
     width: 87vw;
     height: auto;
     padding: 2vh 0;
+}
+.contact {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 70vw;
+    max-height: 50vh;
+    height: 350px;
+    width: 350px;
+    background: lightpink;
+    padding-left: 25px;
+
+}
+h5 {
+    padding: 2vh 0;
+}
+.thank-you {
+    font-family: mainHead;
+    font-size: 15vh;
+    width: 100vw;
+    padding: 15vh 0;
 }
