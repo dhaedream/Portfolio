@@ -6,6 +6,10 @@
 font-family: head;
 src: url(media/fonts/fantasy.ttf);
 }
+@font-face {
+    font-family: body;
+    src: url(media/fonts/NugoSansLight-9YzoK.ttf);
+    }
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,6 +21,7 @@ body {
     width: 100%;
     background: url("media/images/background.png");
     text-align: center;
+    font-family: body;
 
 }
 .mobile-open-nav {
@@ -134,7 +139,7 @@ ul {
 .bio-cont {
     padding: 2vh 0; 
     position: relative;
-    height: 300px;
+    min-height: 300px;
     width: 300px;
     display: flex;
     align-content: center;
@@ -209,7 +214,7 @@ h1 {
     justify-content: center;
 }
 .bio p {
-    padding-top: 2vh;
+    padding-top: 10vh;
 }
 .special-text {
     display: flex;
@@ -237,6 +242,8 @@ h1 {
 }
 .projects h2 {
     background: lavender;
+    padding-right: 2vw;
+    margin: 1.5vh 0;
 }
 .projects h3 {
     padding: 3vh 0;
