@@ -2,6 +2,10 @@
     font-family: mainHead;
     src: url(media/fonts/Emberly-Thin.ttf);
   }
+@font-face {
+font-family: head;
+src: url(media/fonts/fantasy.ttf);
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -104,7 +108,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    min-height: 80vh;
     background: rgb(249, 249, 249);
     padding: 5vh;
     border-bottom: 4px double #000;    
@@ -115,9 +119,21 @@ ul {
 }
 .home h2 {
     padding: 2.5vh 0;
+    font-family: head;
+    font-size: 6vh;
 }
 .home p {
     padding: 2.5vh 0;
+}
+.bio-cont {
+    padding: 2vh 0; 
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 #bioPic {
     /* min-width: 20vw;
@@ -133,7 +149,22 @@ ul {
     border-top-right-radius: 50%;
     border: black 10px double;
     background-clip: content-box;
-    margin: 4vh;
+    /* margin: 4vh; */
+    position: absolute;
+    /* top: 225px;
+    right: 112px; */
+    top: 5px;
+    left: 2px;
+}
+.acc {
+    height: 225px;
+    width: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: black 10px double;
+    background: url("media/images/bioaccent.png");
+    position: absolute;
+
 }
 header {
     height: 25vh;
