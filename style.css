@@ -8,7 +8,15 @@ src: url(media/fonts/fantasy.ttf);
 }
 @font-face {
     font-family: body;
-    src: url(media/fonts/NugoSansLight-9YzoK.ttf);
+    src: url(media/fonts/ClearSansLight-pOXO.ttf);
+    }
+@font-face {
+    font-family: secondThin;
+    src: url(media/fonts/MerriweatherSansLight-8x72.ttf);
+    }
+@font-face {
+    font-family: theBold;
+    src: url(media/fonts/LicensePlate-j9eO.ttf);
     }
 * {
     box-sizing: border-box;
@@ -20,8 +28,13 @@ body {
     flex-direction: column;
     width: 100%;
     background: url("media/images/background.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
     text-align: center;
     font-family: body;
+    font-size: 17.5px;
+    letter-spacing: .7px;
 
 }
 .mobile-open-nav {
@@ -132,6 +145,10 @@ ul {
 .home h3 {
     padding-top: 6vh;
     padding-bottom: 2.5vh;
+    font-family: secondThin;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 23px;
 }
 .home p {
     padding: 2.5vh 0;
@@ -182,6 +199,12 @@ ul {
 }
 header {
     height: 25vh;
+    position: relative;
+}
+#bioDrag {
+    height: 36vh;
+    position: absolute;
+    left: -47vw;
 }
 .bio {
     /* float h1 to top of div */
@@ -190,7 +213,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    min-height: 70vh;
     background: rgb(249, 249, 249);
     padding: 5vh;
     border-bottom: 4px double #000;
@@ -246,7 +269,9 @@ h1 {
     margin: 1.5vh 0;
 }
 .projects h3 {
-    padding: 3vh 0;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    font-family: theBold;
 }
 .proj-img {
     display: flex;
@@ -255,6 +280,8 @@ h1 {
     justify-content: center;
     height: auto;
     width: 100vw;
+    padding-bottom: 2vh;
+
 }
 .p-div p {
     background: lavender;
