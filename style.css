@@ -18,6 +18,10 @@ src: url(media/fonts/fantasy.ttf);
     font-family: theBold;
     src: url(media/fonts/LicensePlate-j9eO.ttf);
     }
+@font-face {
+    font-family: skills;
+    src: url(media/fonts/ClearSansMedium-D8vR.ttf);
+    }
 * {
     box-sizing: border-box;
     padding: 0;
@@ -27,7 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: url("media/images/background.png");
+    min-width: 100vw;
+    background: url("media/images/back1.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: left;
@@ -276,8 +281,8 @@ h1 {
 }
 .projects h3 {
     padding-top: 4vh;
-    padding-bottom: 1vh;
     font-family: theBold;
+    font-size: 25px;
 }
 .proj-img {
     display: flex;
@@ -302,11 +307,14 @@ h1 {
 h4 {
     /* padding: 2vh 0 .5vh 15vw; */
     /* padding: 2vh 0; */
+    padding-left: 1vw;
     text-align: left;
+    font-family: skills;
+
 }
 .s-cont p {
     /* top right bottom left */
-    padding: 1vh 0 1vh 1vh;
+    padding: 1vh 0 1vh 4vw;
 }
 .resume {
     background: rgb(249, 249, 249);
@@ -328,6 +336,7 @@ h4 {
     border-top: 4px double #000;
 }
 .card {
+    background: url("media/images/gradient1.png");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -336,16 +345,24 @@ h4 {
     max-height: 50vh;
     height: 350px;
     width: 350px;
-    background: lightpink;
     padding-left: 25px;
+    border: solid white 14px;
+}
+.card img {
+    height: 16px;
+    /* position: relative; */
+    /* float: left; */
+    display: inline;
 
 }
 h5 {
     padding: 2vh 0;
+    font-size: 18px;
+    float: right;
 }
 .thank-you {
     font-family: mainHead;
     font-size: 15vh;
     width: 100vw;
-    padding: 15vh 0;
+    padding: 25vh 0;
 }
