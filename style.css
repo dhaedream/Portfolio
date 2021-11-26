@@ -337,8 +337,16 @@ h4 {
 }
 .card {
     background: url("media/images/gradient1.png");
-    display: flex;
-    flex-direction: column;
+    background-size: 550px;
+    /* display: flex; */
+    display: inline-block;
+    position:relative;
+    float:left;
+    /* float: left; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
+    
     align-items: flex-start;
     justify-content: center;
     max-width: 70vw;
@@ -349,16 +357,18 @@ h4 {
     border: solid white 14px;
 }
 .card img {
-    height: 16px;
+    height: 36px;
     /* position: relative; */
     /* float: left; */
-    display: inline;
-
+    display: inline-block;
+    flex-grow: 1;
+    align-self: flex-start;
+    margin-left: 0;
 }
 h5 {
     padding: 2vh 0;
     font-size: 18px;
-    float: right;
+    flex-grow: 5;
 }
 .thank-you {
     font-family: mainHead;
