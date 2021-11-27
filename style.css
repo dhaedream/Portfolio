@@ -22,6 +22,7 @@ src: url(media/fonts/fantasy.ttf);
     font-family: skills;
     src: url(media/fonts/ClearSansMedium-D8vR.ttf);
     }
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -32,10 +33,11 @@ body {
     flex-direction: column;
     width: 100%;
     min-width: 100vw;
-    background: url("media/images/back1.png");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: left;
+    background: url("media/images/back2.png");
+    background-size: 750px 5000px;
+    /* background-size: auto 100%; */
+    /* background-repeat: no-repeat; */
+    background-position: right;
     text-align: center;
     font-family: body;
     font-size: 17.5px;
@@ -336,17 +338,13 @@ h4 {
     border-top: 4px double #000;
 }
 .card {
-    background: url("media/images/gradient1.png");
-    background-size: 550px;
-    /* display: flex; */
-    display: inline-block;
-    position:relative;
-    float:left;
-    /* float: left; */
-    flex-direction: row;
+    background: url("media/images/gradient3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
-    
+    justify-content: flex-start;
     align-items: flex-start;
     justify-content: center;
     max-width: 70vw;
@@ -356,19 +354,20 @@ h4 {
     padding-left: 25px;
     border: solid white 14px;
 }
-.card img {
-    height: 36px;
-    /* position: relative; */
-    /* float: left; */
-    display: inline-block;
-    flex-grow: 1;
-    align-self: flex-start;
-    margin-left: 0;
+.con-row {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    align-content: center;
 }
 h5 {
     padding: 2vh 0;
     font-size: 18px;
     flex-grow: 5;
+}
+.contact svg {
+    height: 5vh;
+    width: auto;
 }
 .thank-you {
     font-family: mainHead;
