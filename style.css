@@ -347,18 +347,24 @@ h4 {
     justify-content: flex-start;
     align-items: flex-start;
     justify-content: center;
-    max-width: 70vw;
-    max-height: 50vh;
-    height: 350px;
-    width: 350px;
-    padding-left: 25px;
+    min-width: 75vw;
+    max-width: 90vw;
+    max-height: 90vh;
+    /* height: 350px; */
+    /* width: 350px; */
+    padding: 2vh 0 2vh 25px;
+    /* padding-left: 25px; */
     border: solid white 14px;
+    /* font-family: theBold; */
+    font-family: skills;
+    font-size: 20px;
 }
 .con-row {
     display: flex;
     flex-direction: row;
     font-size: 18px;
-    align-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
 h5 {
     padding: 2vh 0;
@@ -368,6 +374,9 @@ h5 {
 .contact svg {
     height: 5vh;
     width: auto;
+    padding-right: 5px;
+    /* padding: 2vh 0; */
+    /* padding: 2vh 0 2vh 5px; */
 }
 .thank-you {
     font-family: mainHead;
