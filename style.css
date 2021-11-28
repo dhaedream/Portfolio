@@ -2,6 +2,10 @@
     font-family: mainHead;
     src: url(media/fonts/Emberly-Thin.ttf);
   }
+  @font-face {
+    font-family: fantasyy;
+    src: url(media/fonts/fantasy.ttf);
+  }
 @font-face {
 font-family: head;
 src: url(media/fonts/fantasy.ttf);
@@ -159,6 +163,7 @@ ul {
 }
 .home p {
     padding: 2.5vh 0;
+    padding-bottom: 3vh;
 }
 .bio-cont {
     padding: 2vh 0; 
@@ -227,8 +232,10 @@ header {
     font-size: 17px;    
 }
 h1 {
-    font-family: mainHead;
-    font-size: 10vh;
+    /* font-family: mainHead; */
+    /* font-family: fantasyy; */
+    font-family: head;
+    font-size: 7vh;
     background: rgb(249, 249, 249);
     padding: 2vh 0;
     border-bottom: 4px double #000;
@@ -267,14 +274,10 @@ h1 {
     padding: 2vh 0;
     border-bottom: 4px double #000;    
     border-top: 4px double #000;    
-    font-family: mainHead;
-    font-size: 10vh;
+    /* font-size: 10vh; */
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-.p-div {
-    /* background: rgb(123, 0, 61); */
 }
 .projects h2 {
     background: lavender;
