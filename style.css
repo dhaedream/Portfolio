@@ -212,11 +212,39 @@ ul {
 header {
     height: 25vh;
     position: relative;
+    overflow: hidden;
 }
 #bioDrag {
     height: 36vh;
     position: absolute;
     left: -47vw;
+}
+#flower1 {
+    height: 36vh;
+    position: absolute;
+    right: 0vw;
+    bottom: 0vh;
+}
+#circ {
+    height: 36vh;
+    position: absolute;
+    left: 0vw;
+    bottom: 0vh;
+}
+#skill1 {
+    height: 12vh;
+    position: absolute;
+    left: 40vw;
+    bottom: 5vh;
+}
+#mail {
+    height: 20vh;
+    position: absolute;
+    left: 40vw;
+    bottom: 0vh;
+}
+#clouds {
+    height: 35vh;
 }
 .bio {
     /* float h1 to top of div */
